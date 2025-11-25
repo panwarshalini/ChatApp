@@ -79,7 +79,7 @@ JWT_SECRET=your_secret_key
 
 ### Real-time Communication
 
--Socket.IO
+- Socket.IO
 
 ### Authentication
 
@@ -91,4 +91,5 @@ JWT_SECRET=your_secret_key
 ## Connect. Collaborate. Chat.
 
 Experience seamless, fast, and interactive conversations with ConnectFlow!
+
 
