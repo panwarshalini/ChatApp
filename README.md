@@ -7,67 +7,88 @@ ConnectFlow is a modern, high-performance real-time chat application built using
 ## Features
 ### Real-time Group Messaging
 
-Powered by Socket.IO for instant message delivery
-
-Messages update live across all connected clients
+- Powered by Socket.IO for instant message delivery
+- Messages update live across all connected clients
 
 ### Typing Indicators
 
-See who is typing inside a group in real time
+- See who is typing inside a group in real time
 
 ### Online User Presence
 
-Tracks active users in each group
-
-Displays online/offline status dynamically
+- Tracks active users in each group
+- Displays online/offline status dynamically
 
 ### Secure Authentication
 
-JWT-based login system
-
-Passwords hashed for security using bcrypt
+- JWT-based login system
+- Passwords hashed for security using bcrypt
 
 ### Fully Responsive UI
 
-Smooth and modern interface built with Chakra UI
-
-Works seamlessly on mobile, tablet, and desktop
+- Smooth and modern interface built with Chakra UI
+- Works seamlessly on mobile, tablet, and desktop
 
 ---
+
+## ⚙️ How to Run Locally
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/panwarshalini/ChatApp.git
+cd ChatApp
+```
+
+### 2. Run Backend
+```bash
+cd backend
+npm install
+node server.js
+```
+
+### 3. Run Frontend
+```bash
+cd frontend
+npm install
+npm start
+```
+### 4. Create a .env File in Backend
+```bash
+PORT=8000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+```
 
 ## Tech Stack
 ### Frontend
 
-React.js
-
-Chakra UI
-
-Axios
+- React.js
+- Chakra UI
+- Axios
 
 ### Backend
 
-Node.js
+- Node.js
+- Express.js
 
-Express.js
+### Database
 
-Database
+- MongoDB
+- Mongoose
 
-MongoDB
+### Real-time Communication
 
-Mongoose
+-Socket.IO
 
-Real-time Communication
+### Authentication
 
-Socket.IO
-
-Authentication
-
-JWT
-
-bcrypt
+- JWT
+- bcrypt
 
 ---
 
 ## Connect. Collaborate. Chat.
 
 Experience seamless, fast, and interactive conversations with ConnectFlow!
+
