@@ -31,7 +31,7 @@ ConnectFlow is a modern, high-performance real-time chat application built using
 
 ---
 
-## ⚙️ How to Run Locally
+## How to Run Locally
 
 ### 1. Clone the repo
 
@@ -91,5 +91,6 @@ JWT_SECRET=your_secret_key
 ## Connect. Collaborate. Chat.
 
 Experience seamless, fast, and interactive conversations with ConnectFlow!
+
 
 
